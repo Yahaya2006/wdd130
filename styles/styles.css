@@ -6,7 +6,7 @@
 
 body{
     font-size: 16px;
-    font-family: Roboto, Arial,sans-serif;
+    font-family: "Georgia";
 }
 nav {
     background-color: darkblue;
@@ -21,7 +21,8 @@ nav a {
 }
 
 h1 {
-    color: darkblue
+    color: darkblue;
+    font-family: "Brush Script MT";
 }
 
 main img {
