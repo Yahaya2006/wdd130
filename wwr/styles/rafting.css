@@ -3,16 +3,17 @@
     --secondary-color: #F2BB05;
     --accent1-color: #d74f09;
     --accent2-color: #407899;
-    --heading-font: "fascinate iline";
-    --text-font: "Roboto";
-
+    --heading-font: "Fascinate Inline", cursive;
+    --text-font: "Roboto", sans-serif;
 }
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body {
     font-family: var(--text-font);
@@ -32,6 +33,7 @@ h2 {
     color: var(--primary-color);
 }
 
+
 nav,
 p,
 section,
@@ -40,9 +42,11 @@ article {
     padding: 8px;
 }
 
+
 .socialmedia a {
     text-decoration: none;
 }
+
 
 .hero {
     position: relative;
@@ -54,6 +58,7 @@ article {
     height: auto;
 }
 
+
 h1 {
     position: absolute;
     top: 20px;
@@ -64,6 +69,16 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
+
+
+.hero article {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: bisque;
+    opacity: 0.7;
+}
+
 
 .hero article img {
     float: right;
