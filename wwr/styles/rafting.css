@@ -84,3 +84,30 @@ h1 {
     float: right;
     width: 125px;
 }
+header{
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--accent2-color);
+    margin-bottom: 15px ;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    list-style: none;
+}
+.navigation li a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navigation li a:hover {
+    background-color: var(--accent2-color);
+    color: #fff;
+    border-radius: 5px;
+}
