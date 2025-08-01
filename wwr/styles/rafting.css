@@ -244,4 +244,8 @@ button {
 button:hover {
   background-color: darkgreen;
 }
+header, footer, .employees {
+  text-align: center;
+  padding: 1rem;
+}
 
