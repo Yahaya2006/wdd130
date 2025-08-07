@@ -58,7 +58,7 @@ article {
 
 .hero img {
     display: block;
-    width: 100%;
+    width: 1000px;
     height: auto;
 }
 
@@ -66,7 +66,7 @@ article {
 h1 {
     position: absolute;
     top: 0px;
-    width: 100%;
+    width: 1000px;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
@@ -249,3 +249,147 @@ header, footer, .employees {
   padding: 1rem;
 }
 
+/* index.html CSS */
+.newsletter {
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  text-align: center;
+}
+
+.newsletter h2 {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
+.newsletter button {
+  background-color: var(--accent1-color);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: var(--accent2-color);
+}
+
+/* CALL TO ACTION SECTION */
+.cta {
+  background-color: var(--accent2-color);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: var(--accent1-color);
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.cta-button:hover {
+  background-color: #222;
+}
+
+/* grid layout section  */
+.grid-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f1f1f1;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.grid-item p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* trips CSS */
+.cta-trips {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 1rem auto;
+    max-width: 900px;
+}
+
+.contact-link {
+    color: var(--accent1-color);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.trip {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.trip img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.trip-table-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid var(--accent2-color);
+    padding: 12px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
